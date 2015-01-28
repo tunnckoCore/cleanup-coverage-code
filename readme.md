@@ -9,8 +9,16 @@ npm test
 ```
 
 
-## Usage
+## API
 > For more use-cases see the [tests](./test.js)
+
+### [cleanupCoverageCode](./index.js#L33)
+> Cleans up the given code from code added by coverage tools.
+
+- `<str>` **{String}** code to cleanup
+- `return` **{String}** cleaned code
+
+**Example:**
 
 ```js
 var cleanupCoverageCode = require('cleanup-coverage-code');
@@ -19,7 +27,7 @@ var fixture = "var a=[1,2,3];__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;var b=123;";
 cleanupCoverageCode(fixture);
 //=> 'var a=[1,2,3];var b=123;'
 
-cleanupCoverageCode('var a=[1,2,3]; var b=123;');
+cleanupCoverageCode('var a=[1,2,3];var b=123;');
 //=> 'var a=[1,2,3];var b=123;'
 ```
 
