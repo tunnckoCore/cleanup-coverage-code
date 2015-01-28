@@ -55,7 +55,7 @@
     "url": "https://github.com/tunnckoCore/cleanup-coverage-code/blob/master/license.md"
   },
   "dependencies": {
-    "coverage-code-regex": "^1.0.0"
+    "coverage-code-regex": "~1.0.1"
   },
   "devDependencies": {
     "istanbul-harmony": "^0.3.1",
