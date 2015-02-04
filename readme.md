@@ -3,7 +3,7 @@
 > Cleanup ugly code (like this `__cov_Ejgcx$XN18CSfmeWn$f7vQ.f['2']++;`) added by code coverage tools during the test process.
 
 ## Install
-```bash
+```
 npm i --save cleanup-coverage-code
 npm test
 ```
@@ -71,4 +71,4 @@ Released under the [`MIT`][license-url] license.
 
 ***
 
-_Powered and automated by [kdf](https://github.com/tunnckoCore), January 28, 2015_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), February 4, 2015_
